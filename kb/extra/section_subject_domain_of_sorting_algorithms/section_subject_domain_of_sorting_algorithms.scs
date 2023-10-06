@@ -1,0 +1,129 @@
+/* 
+    Артеменко Д.М. группа - 021732
+    
+    Формальное описание предметной области - Алгоритмы сортировки(126)
+    на языке SCs. 
+*/
+section_subject_domain_of_sorting_algorithms
+=> nrel_main_idtf:
+	  [Предметная область алгоритмов сортировки]
+  (* <- lang_ru;; *);
+	  [Section. Subject domain of sorting algorithms]
+  (* <- lang_en;; *);
+<- atomic_section;;
+
+/* Структура предметной области (классы объектов исследования и
+ исследуемые отношения) */
+section_subject_domain_of_sorting_algorithms = [*
+	subject_domain_of_sorting_algorithms
+<- sc_node_struct;
+	=> nrel_main_idtf:
+   [Предметная область алгоритмов сортировки]
+   (* <- lang_ru;; *);
+   [Subject domain of sorting algorithms]
+   (* <- lang_en;; *);
+	<- subject_domain;
+   
+	-> rrel_maximum_studied_object_class:
+   /*concept_algorithm;*/ /* */
+   concept_sorting_algorithm;
+
+	-> rrel_not_maximum_studied_object_class:
+   concept_asymptotic_complexity;
+   concept_comparison_basement;
+   concept_sorting_algorithm_place;
+   concept_sorting_algorithm_method;
+   concept_sorting_algorithm_stability;
+   concept_algorithm_recursity;
+
+	-> rrel_explored_relation:
+   /* rel(algorithm, algorithm) */
+   nrel_faster_in_computation_than;
+   nrel_slower_in_computation_than;
+   nrel_equal_in_computation_to;
+   nrel_faster_in_storage_than;
+   nrel_slower_in_storage_than;
+   nrel_equal_in_storage_to;
+
+   /* rel(complexity, complexity) */
+   nrel_asymp_faster_than;
+   nrel_asymp_slower_than;
+
+   /* rel(algorithm, complexity) */
+   nrel_has_best_computation_complexity;
+   nrel_has_average_computation_complexity;
+   nrel_has_worst_computation_complexity;
+   nrel_has_storage_complexity;
+
+   /* rel(algorithm, method) */
+   nrel_has_sorting_method;
+
+   /* rel(algorithm, stability) */
+   nrel_has_stability_level;
+
+   /* rel(algorithm, basement) */
+   nrel_has_comparison_basement;
+
+   /* rel(algorithm, place) */
+   nrel_has_place;
+
+   /* rel(algorithm, recursity) */
+   nrel_has_recursity;
+
+   /* rel(algorithm) */
+   nrel_algorithm_desc;
+
+   /* rel(method) */
+   nrel_method_desc;
+
+   /* rel(complexity) */
+   nrel_complexity_desc;
+
+   /* rel(stability) */
+   nrel_stability_desc;
+
+   /* rel(comparison) */
+   nrel_comparison_desc;
+
+   /* rel(placement) */
+   nrel_place_desc;
+
+   /* rel(recursity) */
+   nrel_recursity_desc;;
+*];;
+
+section_subject_domain_of_sorting_algorithms
+-> rrel_key_sc_element:
+   subject_domain_of_intelligent_study_systems;
+   concept_algorithm;
+   concept_sorting_algorithm;
+   concept_asymptotic_complexity;
+   concept_comparison_basement;
+   concept_sorting_algorithm_place;
+   concept_sorting_algorithm_method;
+   concept_sorting_algorithm_stability;
+   concept_algorithm_recursity;
+   nrel_faster_in_computation_than;
+   nrel_slower_in_computation_than;
+   nrel_equal_in_computation_to;
+   nrel_faster_in_storage_than;
+   nrel_slower_in_storage_than;
+   nrel_equal_in_storage_to;
+   nrel_asymp_faster_than;
+   nrel_asymp_slower_than;
+   nrel_has_best_computation_complexity;
+   nrel_has_average_computation_complexity;
+   nrel_has_worst_computation_complexity;
+   nrel_has_storage_complexity;
+   nrel_has_sorting_method;
+   nrel_has_stability_level;
+   nrel_has_comparison_basement;
+   nrel_has_place;
+   nrel_has_recursity;
+   nrel_algorithm_desc;
+   nrel_method_desc;
+   nrel_complexity_desc;
+   nrel_stability_desc;
+   nrel_comparison_desc;
+   nrel_place_desc;
+   nrel_recursity_desc;;

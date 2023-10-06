@@ -1,0 +1,42 @@
+nrel_complexity_desc
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+   [Описание асимптотической сложности]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: 
+//       concept_asymptotic_complexity;
+// => nrel_second_domain: 
+//       concept_asymptotic_complexity;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_asymptotic_complexity;
+//          concept_asymptotic_complexity;
+//     	};
+//    *);;
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (описание асимптотической сложности*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Описание асимптотической сложности - бинарное 
+//                ориентированное отношение, устанавливающее связь между
+//                порядком асимптотического роста и его описанием.]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_asymptotic_complexity;
+//    	 };;
+//   *);;

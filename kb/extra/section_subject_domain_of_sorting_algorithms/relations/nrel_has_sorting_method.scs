@@ -1,0 +1,41 @@
+nrel_has_sorting_method
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+   [Использует метод сортировки]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: concept_sorting_algorithm;
+// => nrel_second_domain: concept_sorting_algorithm_method;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_sorting_algorithm;
+//          concept_sorting_algorithm_method;
+//     	};;
+//    *);
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (использует метод сортировки*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Использует метод сортировки - бинарное 
+//                ориентированное отношение, устанавливающее связь между
+//                алгоритмом сортировки и методом, который им исползуется.]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_sorting_algorithm;
+//    	 	 concept_sorting_algorithm_method;
+//    	 };;
+//   *);;

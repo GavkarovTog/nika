@@ -1,0 +1,38 @@
+nrel_recursity_desc
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+   [Описание рекурсии алгоритма]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: concept_algorithm_recursity;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_algorithm_recursity;
+//     	};;
+//    *);
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (Описание рекурсии алгоритма*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Описание рекурсии алгоритма - бинарное 
+//                ориентированное отношение, устанавливающее связь между
+//                рекурсивностью алгоритма сортировки и ее описанием.]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_algorithm_recursity;
+//    	 };;
+//   *);;

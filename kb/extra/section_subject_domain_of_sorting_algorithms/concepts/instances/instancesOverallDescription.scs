@@ -1,0 +1,1194 @@
+bubble_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Сортировка пузырьком]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Проходит по массиву, сравнивает последовательные пары элементов 
+      и меняет их местами, если они расположены в неправильном порядке.]
+	  (* <- lang_ru;; *);
+=> nrel_slower_in_computation_than:
+   quick_sort;
+
+=> nrel_slower_in_computation_than:
+   merge_sort;
+
+=> nrel_slower_in_computation_than:
+   radix_sort;
+
+=> nrel_slower_in_computation_than:
+   bucket_sort;
+
+=> nrel_slower_in_computation_than:
+   cocktail_sort;
+
+=> nrel_equal_in_computation_to:
+   selection_method;
+
+=> nrel_equal_in_computation_to:
+   insertion_sort;
+
+=> nrel_faster_in_storage_than:
+   quick_sort;
+
+=> nrel_faster_in_storage_than:
+   merge_sort;
+
+=> nrel_faster_in_storage_than:
+   bucket_sort;
+
+=> nrel_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_equal_in_storage_to:
+   selection_sort;
+
+=> nrel_equal_in_storage_to:
+   insertion_sort;
+
+=> nrel_equal_in_storage_to:
+   cocktail_sort;
+
+=> nrel_has_best_computation_complexity:
+   linear_time;
+
+=> nrel_has_average_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_worst_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_storage_complexity:
+   constant_time;
+
+=> nrel_has_sorting_method:
+   exchanging_sort_method;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   comparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;
+
+=> nrel_has_recursity:
+   iterative_algorithm;;
+
+/* ======================================= */
+
+cocktail_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Сортировка перемешиванием]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Двунаправленный, оптимизированный вариант сортировки пузырьком.]
+	  (* <- lang_ru;; *);
+=> nrel_slower_in_computation_than:
+   quick_sort;
+
+=> nrel_slower_in_computation_than:
+   merge_sort;
+
+=> nrel_slower_in_computation_than:
+   radix_sort;
+
+=> nrel_slower_in_computation_than:
+   bucket_sort;
+
+=> nrel_slower_in_computation_than:
+   bubble_sort;
+
+=> nrel_equal_in_computation_to:
+   selection_method;
+
+=> nrel_equal_in_computation_to:
+   insertion_sort;
+
+=> nrel_faster_in_storage_than:
+   quick_sort;
+
+=> nrel_faster_in_storage_than:
+   merge_sort;
+
+=> nrel_faster_in_storage_than:
+   bucket_sort;
+
+=> nrel_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_equal_in_storage_to:
+   selection_sort;
+
+=> nrel_equal_in_storage_to:
+   insertion_sort;
+
+=> nrel_equal_in_storage_to:
+   bubble_sort;
+
+=> nrel_has_best_computation_complexity:
+   linear_time;
+
+=> nrel_has_average_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_worst_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_storage_complexity:
+   constant_time;
+
+=> nrel_has_sorting_method:
+   exchanging_sort_method;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   comparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;
+
+=> nrel_has_recursity:
+   iterative_algorithm;;
+
+/* ======================================= */
+
+insertion_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Сортировка вставкой]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Элементы входной последовательности 
+     просматриваются по одному, и каждый новый
+      поступивший элемент размещается в подходящее
+       место среди ранее упорядоченных элементов]
+	  (* <- lang_ru;; *);
+=> nrel_slower_in_computation_than:
+   quick_sort;
+
+=> nrel_slower_in_computation_than:
+   merge_sort;
+
+=> nrel_slower_in_computation_than:
+   bucket_sort;
+
+=> nrel_slower_in_computation_than:
+   radix_sort;
+
+=> nrel_equal_in_computation_to:
+   selection_method;
+
+=> nrel_equal_in_computation_to:
+   bubble_sort;
+
+=> nrel_equal_in_computation_to:
+   cocktail_sort;
+
+=> nrel_faster_in_storage_than:
+   quick_sort;
+
+=> nrel_faster_in_storage_than:
+   merge_sort;
+
+=> nrel_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_faster_in_storage_than:
+   bucket_sort;
+
+=> nrel_equal_in_storage_to:
+   selection_sort;
+   
+=> nrel_equal_in_storage_to:
+   cocktail_sort;
+
+=> nrel_equal_in_storage_to:
+   bubble_sort;
+
+=> nrel_has_best_computation_complexity:
+   linear_time;
+
+=> nrel_has_average_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_worst_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_storage_complexity:
+   constant_time;
+
+=> nrel_has_sorting_method:
+   insertion_sort_method;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   comparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;
+
+=> nrel_has_recursity:
+   iterative_algorithm;;
+
+/* ======================================= */   
+
+merge_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Сортировка слиянием]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Рекурсивно сортирует половины массива,
+      а затем комбинирует их в один.]
+	  (* <- lang_ru;; *);
+=> nrel_slower_in_computation_than:
+   radix_sort;
+
+=> nrel_slower_in_computation_than:
+   bucket_sort;
+
+=> nrel_equal_in_computation_to:
+   quick_sort;
+
+=> nrel_slower_in_storage_than:
+   bubble_sort;
+
+=> nrel_slower_in_storage_than:
+   insertion_sort;
+
+=> nrel_slower_in_storage_than:
+   cocktail_sort;
+
+=> nrel_slower_in_storage_than:
+   selection_sort;
+
+=> nrel_slower_in_storage_than:
+   quick_sort;
+
+=> nrel_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_faster_in_storage_than:
+   bucket_sort;
+
+=> nrel_has_best_computation_complexity:
+   linearithmic_time;
+
+=> nrel_has_average_computation_complexity:
+   linearithmic_time;
+
+=> nrel_has_worst_computation_complexity:
+   linearithmic_time;
+
+=> nrel_has_storage_complexity:
+   linear_time;
+
+=> nrel_has_sorting_method:
+   partitioning_method;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   comparative_algorithm;
+
+=> nrel_has_place:
+   outplace_sorting;
+
+=> nrel_has_recursity:
+   recursive_algorithm;;
+
+/* ======================================= */   
+
+selection_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Сортировка выбором]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Делит входной массив на упорядоченную 
+     и неупорядоченную части. 
+     Затем последовательно переносит в
+      первую часть наименьшие элементы из второй.]
+	  (* <- lang_ru;; *);
+
+=> nrel_slower_in_computation_than:
+   quick_sort;
+
+=> nrel_slower_in_computation_than:
+   merge_sort;
+
+=> nrel_slower_in_computation_than:
+   radix_sort;
+
+=> nrel_slower_in_computation_than:
+   bucket_sort;
+
+=> nrel_slower_in_computation_than:
+   counting_sort;
+
+=> nrel_equal_in_computation_to:
+   bubble_sort;
+
+=> nrel_equal_in_computation_to:
+   insertion_sort;
+
+=> nrel_equal_in_computation_to:
+   cocktail_sort;
+
+=> nrel_faster_in_storage_than:
+   quick_sort;
+
+=> nrel_faster_in_storage_than:
+   merge_sort;
+
+=> nrel_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_faster_in_storage_than:
+   bucket_sort;
+
+=> nrel_faster_in_storage_than:
+   counting_sort;
+
+=> nrel_has_best_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_average_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_worst_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_storage_complexity:
+   constant_time;
+
+=> nrel_has_sorting_method:
+   selection_method;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   comparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;
+
+=> nrel_has_recursity:
+   iterative_algorithm;;
+
+/* ======================================= */ 
+
+quick_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Быстрая сортировка]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Выбирается опорный элемент p.
+      Все ключи меньшие p перемещаются влево от него,
+      а все ключи большие либо равные p, вправо.
+       Далее алгоритм рекурсивно применяется к каждой из частей.]
+	  (* <- lang_ru;; *);
+=> nrel_slower_in_computation_than:
+   radix_sort;
+
+=> nrel_slower_in_computation_than:
+   bucket_sort;
+
+=> nrel_slower_in_computation_than:
+   counting_sort;
+
+=> nrel_equal_in_computation_to:
+   merge_sort;
+
+=> nrel_faster_in_computation_than:
+   selection_sort;
+
+=> nrel_faster_in_computation_than:
+   bubble_sort;
+
+=> nrel_faster_in_computation_than:
+   insertion_sort;
+
+=> nrel_faster_in_computation_than:
+   cocktail_sort;
+
+=> nrel_faster_in_storage_than:
+   merge_sort;
+
+=> nrel_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_faster_in_storage_than:
+   bucket_sort;
+
+=> nrel_faster_in_storage_than:
+   counting_sort;
+
+=> nrel_has_best_computation_complexity:
+   linearithmic_time;
+
+=> nrel_has_average_computation_complexity:
+   linearithmic_time;
+
+=> nrel_has_worst_computation_complexity:
+   quadratic_time;
+
+=> nrel_has_storage_complexity:
+   logarithmic_time;
+
+=> nrel_has_sorting_method:
+   selection_method;
+
+=> nrel_has_stability_level:
+   nonstable_algorithm;
+
+=> nrel_has_comparison_basement:
+   comparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;
+
+=> nrel_has_recursity:
+   recursive_algorithm;;
+
+/* ======================================= */
+
+radix_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Поразрядная сортировка]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Массив сортируется согласно с помощью поразрядного сравнения чисел.]
+	  (* <- lang_ru;; *);
+=> nrel_slower_in_computation_than:
+   counting_sort;
+
+=> nrel_slower_in_computation_than:
+   bucket_sort;
+
+=> nrel_faster_in_computation_than:
+   selection_sort;
+
+=> nrel_faster_in_computation_than:
+   bubble_sort;
+
+=> nrel_faster_in_computation_than:
+   insertion_sort;
+
+=> nrel_faster_in_computation_than:
+   cocktail_sort;
+
+=> nrel_faster_in_computation_than:
+   quick_sort;
+
+=> nrel_faster_in_computation_than:
+   merge_sort;
+
+=> nrel_slower_in_storage_than:
+   selection_sort;
+   
+=> nrel_slower_in_storage_than:
+   insertion_sort;
+
+=> nrel_slower_in_storage_than:
+   bubble_sort;
+
+=> nrel_slower_in_storage_than:
+   cocktail_sort;
+
+=> nrel_slower_in_storage_than:
+   merge_sort;
+
+=> nrel_slower_in_storage_than:
+   quick_sort;
+
+=> nrel_slower_in_storage_than:
+   counting_sort;
+   
+=> nrel_slower_in_storage_than:
+   bucket_sort;
+
+=> nrel_has_average_computation_complexity:
+   linear_time;
+
+=> nrel_has_worst_computation_complexity:
+   linear_time;
+
+=> nrel_has_storage_complexity:
+   exponential_time;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   noncomparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;;
+
+bucket_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Блочная сортировка]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Элементы распределяются по блокам согласно диапазону значений, каждый из которых затем рекурсивно сортируется.]
+	  (* <- lang_ru;; *);
+=> nrel_equal_in_computation_than:
+   counting_sort;
+
+=> nrel_faster_in_computation_than:
+   radix_sort;
+
+=> nrel_faster_in_computation_than:
+   selection_sort;
+
+=> nrel_faster_in_computation_than:
+   bubble_sort;
+
+=> nrel_faster_in_computation_than:
+   insertion_sort;
+
+=> nrel_faster_in_computation_than:
+   cocktail_sort;
+
+=> nrel_faster_in_computation_than:
+   quick_sort;
+
+=> nrel_faster_in_computation_than:
+   merge_sort;
+
+=> nrel_slower_in_storage_than:
+   selection_sort;
+   
+=> nrel_slower_in_storage_than:
+   insertion_sort;
+
+=> nrel_slower_in_storage_than:
+   bubble_sort;
+
+=> nrel_slower_in_storage_than:
+   cocktail_sort;
+
+=> nrel_slower_in_storage_than:
+   quick_sort;
+
+=> nrel_equal_in_storage_to:
+   counting_sort;
+
+=> nref_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_has_average_computation_complexity:
+   linear_time;
+
+=> nrel_has_worst_computation_complexity:
+   linear_time;
+
+=> nrel_has_storage_complexity:
+   linear;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   noncomparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;;
+
+counting_sort
+<- concept_sorting_algorithm;
+=> nrel_main_idtf:
+	   [Сортировка подсчетом]
+   (* <- lang_ru;; *);
+=> nrel_algorithm_desc:
+	  [Подсчитывается количество вхождений каждого целого
+      числа из диапазона ключей в массив. Затем выводится
+       значения всех ненулевых значений.]
+	  (* <- lang_ru;; *);
+=> nrel_equal_in_computation_than:
+   bucket_sort;
+
+=> nrel_faster_in_computation_than:
+   radix_sort;
+
+=> nrel_faster_in_computation_than:
+   selection_sort;
+
+=> nrel_faster_in_computation_than:
+   bubble_sort;
+
+=> nrel_faster_in_computation_than:
+   insertion_sort;
+
+=> nrel_faster_in_computation_than:
+   cocktail_sort;
+
+=> nrel_faster_in_computation_than:
+   quick_sort;
+
+=> nrel_faster_in_computation_than:
+   merge_sort;
+
+=> nrel_slower_in_storage_than:
+   selection_sort;
+   
+=> nrel_slower_in_storage_than:
+   insertion_sort;
+
+=> nrel_slower_in_storage_than:
+   bubble_sort;
+
+=> nrel_slower_in_storage_than:
+   cocktail_sort;
+
+=> nrel_slower_in_storage_than:
+   quick_sort;
+
+=> nrel_equal_in_storage_to:
+   bucket_sort;
+
+=> nref_faster_in_storage_than:
+   radix_sort;
+
+=> nrel_has_average_computation_complexity:
+   linear_time;
+
+=> nrel_has_worst_computation_complexity:
+   linear_time;
+
+=> nrel_has_storage_complexity:
+   linear;
+
+=> nrel_has_stability_level:
+   stable_algorithm;
+
+=> nrel_has_comparison_basement:
+   noncomparative_algorithm;
+
+=> nrel_has_place:
+   inplace_sorting;;
+
+constant_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Постоянная сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Постоянная асимптотическая сложность является самой желанной сложностью по времени и памяти
+     для любого алгоритма. Такой сложностью обладают операции сложения и смещения битов числа 
+     вычислительных устройств.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_faster_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_faster_than:
+   logarithmic_time;
+
+=> nrel_asymp_faster_than:
+   linear_time;
+
+=> nrel_asymp_faster_than:
+   linearithmic_time;
+
+=> nrel_asymp_faster_than:
+   quadratic_time;
+
+=> nrel_asymp_faster_than:
+   cubic_time;
+
+=> nrel_asymp_faster_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+log_logarithmic_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Логарифмо-логарифмическая сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Хуже чем константная сложность, лучше всех остальных. Встречается 
+     в реализациях алгоритмов вставки/извлечения элемента приоритетной очереди.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_faster_than:
+   logarithmic_time;
+
+=> nrel_asymp_faster_than:
+   linear_time;
+
+=> nrel_asymp_faster_than:
+   linearithmic_time;
+
+=> nrel_asymp_faster_than:
+   quadratic_time;
+
+=> nrel_asymp_faster_than:
+   cubic_time;
+
+=> nrel_asymp_faster_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+logarithmic_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Логарифмическая сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Асимптотический порядок, присущий алгоритмам, где используется стратегия решения задачи
+     "разделяй и влавствуй". Одним из самых известных алгоритмов с такой сложностью вычислений - двоичный поиск.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_faster_than:
+   linear_time;
+
+=> nrel_asymp_faster_than:
+   linearithmic_time;
+
+=> nrel_asymp_faster_than:
+   quadratic_time;
+
+=> nrel_asymp_faster_than:
+   cubic_time;
+
+=> nrel_asymp_faster_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+linear_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Линейная сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Такой сложностью обладают алгоритмы сложения двух чисел, линейного поиска элемента,
+     вычисление максимального/минимального элемента в массиве/списке.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   logarithmic_time;
+
+=> nrel_asymp_faster_than:
+   linearithmic_time;
+
+=> nrel_asymp_faster_than:
+   quadratic_time;
+
+=> nrel_asymp_faster_than:
+   cubic_time;
+
+=> nrel_asymp_faster_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+linearithmic_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Линейная сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Минимальная сложность алгоритмов сортировки, основанных на сравнениях. Зачастую
+     связана со стратегией "разделяй и влавствуй".]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   linear_time;
+
+=> nrel_asymp_faster_than:
+   quadratic_time;
+
+=> nrel_asymp_faster_than:
+   cubic_time;
+
+=> nrel_asymp_faster_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+quadratic_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Квадратичная сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Простейшие алгоритмы сортировки, навроде пузырька, выборки, вставки обладают именно такой сложностью.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   linear_time;
+
+=> nrel_asymp_slower_than:
+   linearithmic_time;
+
+=> nrel_asymp_faster_than:
+   cubic_time;
+
+=> nrel_asymp_faster_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+cubic_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Кубическая сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Наивный алгоритм умножения двух матриц обладает такой сложностью.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   linear_time;
+
+=> nrel_asymp_slower_than:
+   linearithmic_time;
+
+=> nrel_asymp_slower_than:
+   quadratic_time;
+
+=> nrel_asymp_faster_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+polynomial_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Полиномиальная сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Приближается к самым быстрым порядкам.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   linear_time;
+
+=> nrel_asymp_slower_than:
+   linearithmic_time;
+
+=> nrel_asymp_slower_than:
+   quadratic_time;
+
+=> nrel_asymp_slower_than:
+   cubic_time;
+
+=> nrel_asymp_faster_than:
+   exponential_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+exponential_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Экспоненциальная сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Один из самых больших асимтотических порядков. Присущ алгоритмам
+     факторизации чисел, а также проверки графов на изморфизм]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   linear_time;
+
+=> nrel_asymp_slower_than:
+   linearithmic_time;
+
+=> nrel_asymp_slower_than:
+   quadratic_time;
+
+=> nrel_asymp_slower_than:
+   cubic_time;
+
+=> nrel_asymp_slower_than:
+   polynomial_time;
+
+=> nrel_asymp_faster_than:
+   factorial_time;;
+
+factorial_time
+<- concept_algorithm_complexity;
+=> nrel_main_idtf:
+	   [Факториальная сложность]
+   (* <- lang_ru;; *);
+=> nrel_complexity_desc:
+	  [Сложность, которая делает алгоритмические решения некоторых задач
+     бесполезными на практике. Как правило, такой сложностью обладают алгоритмы,
+     в которых происходит перебор всех возможных вариантов решений для того,
+     чтобы найти оптимальный. Известным примером такой задачи является задача Коммивояжера.]
+	  (* <- lang_ru;; *);
+=> nrel_asymp_slower_than:
+   constant_time;
+
+=> nrel_asymp_slower_than:
+   log_logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   logarithmic_time;
+
+=> nrel_asymp_slower_than:
+   linear_time;
+
+=> nrel_asymp_slower_than:
+   linearithmic_time;
+
+=> nrel_asymp_slower_than:
+   quadratic_time;
+
+=> nrel_asymp_slower_than:
+   cubic_time;
+
+=> nrel_asymp_slower_than:
+   polynomial_time;
+
+=> nrel_asymp_slower_than:
+   exponential_time;;
+
+inplace_sorting
+<- concept_sorting_algorithm_place;
+=> nrel_main_idtf:
+	   [Сортировка на месте]
+   (* <- lang_ru;; *);
+=> nrel_place_desc:
+	  [Ситуация, когда при решении задачи сортировки некоторой коллекции не используется
+     выделение дополнительной памяти.]
+	  (* <- lang_ru;; *);;
+
+outplace_sorting
+<- concept_sorting_algorithm_place;
+=> nrel_main_idtf:
+	   [Сортировка с использованием внешей памяти]
+   (* <- lang_ru;; *);
+=> nrel_place_desc:
+	  [Некоторые алгоритмы сортировки выделяют дополнительную память для хранения
+     промежуточных результатов сортировки. Известным примером является алгоритм сортировки слиянием]
+	  (* <- lang_ru;; *);;
+
+partitioning_method
+<- concept_sorting_algorithm_place;
+=> nrel_main_idtf:
+	   [Метод разделения]
+   (* <- lang_ru;; *);
+=> nrel_method_desc:
+	  [Метод, применяющийся алгоритмами сортировки для постепенного упорядочивания массива,
+     путем уменьшения экземпляра задачи на какое-то постоянное число. Метод присущ алгоритму
+     быстрой сортировки.]
+	  (* <- lang_ru;; *);;
+
+merging_method
+<- concept_sorting_algorithm_place;
+=> nrel_main_idtf:
+	   [Метод слияния]
+   (* <- lang_ru;; *);
+=> nrel_method_desc:
+	  [Метод, используемый некоторыми алгоритмами сортировки и предполагающий разделение коллекции на некоторое
+     число подколлекций, решение задачи для них, а затем их объединение для получения решения для большего
+     экземпляра задачи]
+	  (* <- lang_ru;; *);;
+
+selection_method
+<- concept_sorting_algorithm_place;
+=> nrel_main_idtf:
+	   [Метод выборки]
+   (* <- lang_ru;; *);
+=> nrel_method_desc:
+	  [Использование данного метода означает выбор элемента для каждой позиции элемента коллекции отдельно. При этом
+     выбор осуществляется в постепенно уменьшающемся размере задачи, таким образом, в конце решения задачи остается 
+     лишь решить задачу сравнения двух неотсортированных элементов коллекции.]
+	  (* <- lang_ru;; *);;
+
+insertion_sort_method
+<- concept_sorting_algorithm_place;
+=> nrel_main_idtf:
+	   [Метод вставки]
+   (* <- lang_ru;; *);
+=> nrel_method_desc:
+	  [Вставка позволяет эффективней сортировать коллекции, обладающие относительной
+     упорядоченностью. В отличие от метода выборки, в методе вставки больее интересны
+     разделы коллекции.]
+	  (* <- lang_ru;; *);;
+
+exchanging_sort_method
+<- concept_sorting_algorithm_place;
+=> nrel_main_idtf:
+	   [Метод обмена]
+   (* <- lang_ru;; *);
+=> nrel_method_desc:
+	  [Данный метод похож на метод выборки. Однако его отличие заключается в том,
+     что там, где выборка выбирает самый подходящий элемент для какой-то конкретной позиции,
+     метод обмена производит такие изменения позиций, что элемент безусловно сам встает на нужное
+     место в коллекции.]
+	  (* <- lang_ru;; *);;
+
+comparative_sorting
+<- concept_comparison_basement;
+=> nrel_main_idtf:
+	   [Сортировка, основанная на сравнениях]
+   (* <- lang_ru;; *);
+=> nrel_comparison_desc:
+	  [Алгоритмы сортировки, решающие задачу упорядочивания коллекции путем
+     поэлементоного сравнения.]
+	  (* <- lang_ru;; *);;
+
+noncomparative_sorting
+<- concept_comparison_basement;
+=> nrel_main_idtf:
+	   [Сортировка, не использующая сравнения]
+   (* <- lang_ru;; *);
+=> nrel_comparison_desc:
+	  [Алгоритмы сортировки, решающие задачу упорядочивания коллекции без сравнения элементов.]
+	  (* <- lang_ru;; *);;
+
+stable_algorithm
+<- concept_sorting_algorithm_stability;
+=> nrel_main_idtf:
+	   [Стабильный алгоритм]
+   (* <- lang_ru;; *);
+=> nrel_stability_desc:
+	  [Стабильными называют алгоритмы сортировки, не изменяющие позиции равных друг
+     другу элементов по отношению друг к другу.]
+	  (* <- lang_ru;; *);
+=> nrel_lab_workshop:
+   nika_lab_workshop
+   (* => nrel_main_idtf:
+	        [Лабораторный практикум по системе Ника]
+	        (* <- lang_ru;; *);;
+      <= nrel_inclusion: concept_lab_work;;
+      -> rrel_1: nika_lab_work_1;;
+   *);;
+
+nonstable_algorithm
+<- concept_sorting_algorithm_stability;
+=> nrel_main_idtf:
+	   [Нестабильный алгоритм]
+   (* <- lang_ru;; *);
+=> nrel_stability_desc:
+	  [Нестабильный алгоритм сортировки изменяет положение элементов, одинаковых
+     по значению, в результирующем, то есть отсортированном виде коллекции, по отношению
+     друг к другу.]
+	  (* <- lang_ru;; *);
+=> nrel_lab_workshop:
+   nika_lab_workshop
+   (* => nrel_main_idtf:
+	        [Лабораторный практикум по системе Ника]
+	        (* <- lang_ru;; *);;
+      <= nrel_inclusion: concept_lab_work;;
+      -> rrel_1: nika_lab_work_1;;
+   *);;
+
+recursive_algorithm
+<- concept_algorithm_recursity;
+=> nrel_main_idtf:
+	   [Рекурсивный алгоритм]
+   (* <- lang_ru;; *);
+=> nrel_recursity_desc:
+	  [Алгоритм, использующий для решения своей задачи свое же собственное описание, но для отличающейся
+     по размеру задачи, путем преобразования последней.]
+	  (* <- lang_ru;; *);;
+
+iterative_algorithm
+<- concept_algorithm_recursity;
+=> nrel_main_idtf:
+	   [Итеративный алгоритм]
+   (* <- lang_ru;; *);
+=> nrel_recursity_desc:
+	  [Нерекурсивный алгоритм. Алгоритм, использующий встроенные средства циклического
+     ветвления для решения поставленной задачи.]
+	  (* <- lang_ru;; *);;

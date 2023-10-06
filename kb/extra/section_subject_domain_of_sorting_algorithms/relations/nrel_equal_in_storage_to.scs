@@ -1,0 +1,42 @@
+nrel_equal_in_storage_to
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- reflexive_relation;
+<- symmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+   [Растет в памяти одинаково с]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: concept_sorting_algorithm;
+// => nrel_second_domain: concept_sorting_algorithm;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_sorting_algorithm;
+//    	 	    concept_sorting_algorithm;
+//     	};;
+//    *);
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (растет в памяти одинаково с*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Растет в памяти одинаково с - бинарное 
+//                неориентированное отношение, показывающее связь
+//                между двумя алгоритмами сортировки, где у первого алгоритма 
+//                размер памяти растет вместе с размером задачи с такой же скоростью, что и у второго]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_sorting_algorithm;
+//    	 	 concept_sorting_algorithm;
+//    	 };;
+//   *);;

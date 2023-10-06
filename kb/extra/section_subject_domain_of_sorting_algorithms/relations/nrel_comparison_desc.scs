@@ -1,0 +1,38 @@
+nrel_comparison_desc
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+   [Описание базы сравнения]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: concept_comparison_basement;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_comparison_basement;
+//     	};;
+//    *);
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (описание базы сравнения*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Описание базы сравнения - бинарное 
+//                ориентированное отношение, устанавливающее связь между
+//                базой сравнения алгоритма сортировки и ее описанием.]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_comparison_basement;
+//    	 };;
+//   *);;

@@ -1,0 +1,40 @@
+nrel_has_worst_computation_complexity
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+   [Обладает сложностью вычислений в худшем случае]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: concept_sorting_algorithm;
+// => nrel_second_domain: concept_asymptotic_complexity;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_sorting_algorithm;
+//          concept_asymptotic_complexity;
+//     	};;
+//    *);
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (обладает сложностью вычислений в худшем случае*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Обладает сложностью вычислений в худшем случае - бинарное 
+//                ориентированное отношение, показывающее связь
+//                между алгоритмом сортировки и асимптотическим порядком роста,
+//                где алгоритм в худшем случае обладает соответствующим порядком роста]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_sorting_algorithm;
+//    	 	 concept_asymptotic_complexity;
+//    	 };;
+//   *);;

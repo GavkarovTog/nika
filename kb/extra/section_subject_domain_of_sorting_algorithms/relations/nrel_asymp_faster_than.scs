@@ -1,0 +1,43 @@
+nrel_asymp_faster_than
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+   [Растет в асимптотически быстрее чем]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: concept_asymptotic_complexity;
+// => nrel_second_domain: concept_asymptotic_complexity;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_asymptotic_complexity;
+//          concept_asymptotic_complexity;
+//     	};;
+//    *);
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (растет в асимптотически быстрее чем*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Растет в асимптотически быстрее чем - бинарное 
+//                ориентированное отношение, показывающее связь
+//                между двумя асимптотическими порядками, где у первого порядка 
+//                скорость роста зависимой величины больше, чем у второго порядка]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_asymptotic_complexity;
+//    	 	 concept_asymptotic_complexity;
+//    	 };;
+//   *);;

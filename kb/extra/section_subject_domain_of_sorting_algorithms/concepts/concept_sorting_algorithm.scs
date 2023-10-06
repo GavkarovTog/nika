@@ -1,0 +1,17 @@
+concept_sorting_algorithm
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [Алгоритм сортировки]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_algorithm
+   (* => nrel_main_idtf:
+       [Алгоритм]
+       (* <- lang_ru;; *);;
+   *);
+=> nrel_note:
+   [Алгоритмы сортировки используются для того, чтобы упорядочить 
+   некоторую коллекцию - структуру данных по заранее установленному
+   признаку.]
+   (* <- lang_ru;; *);;

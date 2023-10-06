@@ -1,0 +1,42 @@
+nrel_has_storage_complexity
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+   [Обладает сложностью хранения]
+   (* <- lang_ru;; *);;
+// => nrel_first_domain: concept_sorting_algorithm;
+// => nrel_second_domain: concept_asymptotic_complexity;
+// => nrel_definitional_domain:
+//    ...
+//    (*
+//     	<= nrel_combination: {
+//         	concept_sorting_algorithm;
+//          concept_asymptotic_complexity;
+//     	};;
+//    *);
+// <- rrel_key_sc_element:
+//    ...
+//    (*
+//       => nrel_main_idtf:
+//    	   [Опр. (обладает сложностью хранения*)]
+//    	   (* <- lang_ru;; *);
+//       <- definition;;
+//       <= nrel_sc_text_translation:
+//    	    ...
+//    	    (*
+//    	       -> rrel_example:
+//    		    [Обладает сложностью хранения - бинарное 
+//                ориентированное отношение, показывающее связь
+//                между алгоритмом сортировки и асимптотическим порядком роста,
+//                где алгоритм обладает соответствующим порядком роста объема памяти, необходимой для работы]
+//    		    (* <- lang_ru;; *);;
+//    	    *);;
+//       <= nrel_using_constants: {
+//    	 	 concept_sorting_algorithm;
+//    	 	 concept_asymptotic_complexity;
+//    	 };;
+//   *);;

@@ -1,0 +1,28 @@
+concept_message_what_properties
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	  [сообщение о свойствах алгоритма]
+	  (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+	  [what_properties];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	   [Опр. (сообщение о сравнении асимптотик)]
+	   (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+	   [Сообщение о сравнении асимптотик - атомарное сообщение,
+    которое содержит сушность, информацию о которой
+    необходимо найти.]
+		   (* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;
+	*);;

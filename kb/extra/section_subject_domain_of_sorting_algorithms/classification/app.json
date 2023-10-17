@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip subject_domain_of_sorting_algorithms.zip subject_domain_of_sorting_algorithms\/app.json subject_domain_of_sorting_algorithms\/entities\/*.json subject_domain_of_sorting_algorithms\/intents\/*.json subject_domain_of_sorting_algorithms\/traits\/*.json subject_domain_of_sorting_algorithms\/utterances\/*.json subject_domain_of_sorting_algorithms\/composer\/*.json",
+    "name": "subject_domain_of_sorting_algorithms",
+    "lang": "ru",
+    "timezone": "America\/Los_Angeles"
+}

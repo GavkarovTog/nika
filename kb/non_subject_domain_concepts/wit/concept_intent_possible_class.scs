@@ -36,4 +36,11 @@ concept_intent_possible_class
 -> concept_message_about_weather;
 -> concept_message_about_find_word_by_first_letter;
 -> concept_message_about_lab_work_deadline;
--> concept_message_about_skill;;
+-> concept_message_about_skill;
+-> concept_message_what_asymptotic_is_faster;
+-> concept_message_what_is;
+-> concept_message_what_space_complexity_has;
+-> concept_message_what_is_slower;
+-> concept_message_what_instances_of;
+-> concept_message_what_time_complexity_has;
+-> concept_message_what_properties;;
